@@ -1,0 +1,505 @@
+@font-face{
+    font-family:"Gotham-Bold";
+    src:url("./Gotham-Font/Gotham-Font/Gotham-Bold.otf");
+}
+@font-face{
+    font-family:"Gotham-Light";
+    src:url("./Gotham-Font/Gotham-Font/Gotham-Light.otf");
+}
+@font-face{
+    font-family:"Gotham-Thin";
+    src:url("./Gotham-Font/Gotham-Font/Gotham-Thin.otf");
+}
+@font-face{
+    font-family:"GothamBold";
+    src:url("./Gotham-Font/Gotham-Font/GothamBold.ttf");
+}
+@font-face{
+    font-family:"GothamBook";
+    src:url("./Gotham-Font/Gotham-Font/GothamBook.ttf");
+}
+@font-face{
+    font-family:"GothamBlack";
+    src:url("./Gotham-Font/Gotham-Font/Gotham-Black.otf");
+}
+@font-face{
+    font-family:"GothamMedium";
+    src:url("./Gotham-Font/Gotham-Font/GothamMedium.ttf");
+}
+
+body{
+        height:5000px;
+}
+li{
+    list-style: none;
+}
+h1 ,h2{
+    font-weight: 300;
+    line-height: 1.2;
+}
+*{
+    box-sizing: border-box;
+}
+html body{
+    font-family: Gotham Book;
+    margin:0;
+}
+p{
+    margin: 10px 0;
+}
+img{
+    width:100%;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    /* background-color: #333; */
+    color:#fff;
+    /* opacity: 0.8; */
+    width:100%;
+    height:150px;
+    position:fixed;
+    top: 0px;
+    padding:0 30px;
+}
+
+.top{
+    background:#fff;
+    
+}
+.top nav ul li a{
+    color:#000
+}
+/* .top .logo .text-prim{
+    background-image: url("./images/jspl_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+.navbar.top nav ul li{
+    color:#000;
+}
+.navbar a{
+    text-decoration: none;
+    color:#fff;
+    margin: 0px 5px;
+    padding: 10px 20px;
+}
+.navbar ul{
+    display:flex;
+    
+}
+.navbar ul li{
+    list-style:none;
+    
+}
+
+.hero{
+    background: url('./images/1606910006_about-bg.jpg') no-repeat center center/cover;
+    height:100vh;
+    /* width:100vw; */
+    position:relative;
+    color:#fff;
+    
+    
+}
+
+.hero .content h1 {
+    font-size:48px;
+    font-family: "GothamBold";
+}
+
+.hero .content{
+    padding:0;
+    margin:0;
+    padding: 540px 0px 100px 200px;
+}
+
+main .sec-part{
+    box-sizing: border-box;
+    display:flex;
+}
+main .sec-part .left{
+    float:left;
+    text-align:center;
+    width: 30%;
+    padding: 40px 100px 0px 50px;
+    
+}
+
+main .sec-part .left h1{
+    color:#212529;
+    text-align: left;
+    font-family: "GothamBold";
+    font-size:60px;
+    padding-left: 80px;
+}
+h1{
+    font: 120px;
+    font-weight: bolder;
+}
+main .right-cont{
+    float:right;    
+    width:70%;
+    padding: 80px 130px 40px 10px;
+    line-height: 48px;
+    border-bottom: 1px solid darkgrey;
+}
+main .right-cont p{
+    
+    font-family: "Gotham-Light";
+    font-size: 24px;
+    
+}
+.information{
+    padding-top: 50px;
+    overflow: auto;
+    padding-left: 450px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:80px;
+    
+}
+.information ul{
+    padding-left: 0px;
+    float: left;
+    width:300px;
+}
+.information ul li p{
+    font-family: GothamBook;
+    font-size: 24px;
+    line-height: 2.5rem;
+    color:#636363;
+}
+.information ul li h1{
+    margin:0;
+    font-family: "GothamBold";
+    font-size:80px;
+    color: #1A1A1A;
+}
+.philosophy{
+    background-image: url("./images/1606970454_our_philosophy_bg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    /* background-position: 100%; */
+}
+.philosophy h1{
+    color:#fff;
+    width:500px;
+}
+.btn{
+    text-align: center;
+    height:40px;
+    display:inline-block;
+    font-size:18px;
+    color:#000;
+    background:#fff;
+    padding:10px 20px;
+    border:none;
+    text-decoration: none;
+    font-family: "Gotham-Light";
+}
+.btn:hover{
+    background-color:#000;
+    color:#fff;
+}
+
+.philosophy ul li{
+    font-size: 22px;
+    color:#fff;
+    list-style: disc;
+    font-family: "Gotham-Light";
+    line-height: 40px;
+    
+}
+
+
+.img2{
+    
+    width:300px;
+    float:left;
+    
+}
+.philosophy .top1{
+
+    display:flex;
+}
+.philosophy.part2{
+    box-sizing: border-box;
+}
+.philosophy div .img1{
+    
+    width:40%;
+    padding:100px;
+    
+}
+.philosophy ul{
+    
+    padding-bottom: 50px;
+    width:60%;
+}
+.philosophy .top1 h1{
+    padding-left:200px;
+    padding-top:40px;
+}
+.philosophy .top1 span{
+    padding-left:500px;
+    padding-top:40px;
+}
+
+.philosophy h1{
+    font-size: 33px;
+    font-family: "Gotham-Light";
+}
+.philosophy{
+    border-bottom: 1px solid #fff
+}
+.philosophy.part2 ul li, .values h1, .values ol li{
+    color:#fff;
+}
+
+.philosophy{
+
+    background-image: url("./images/1606970454_our_philosophy_bg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height:800px;
+    /* background-position: 100%; */
+    
+}
+
+.philosophy .mphoto{
+    float:left;
+    width:450px;
+    padding: 100px 80px;
+
+}
+/*  */
+.philosophy .mission-ach{
+
+    margin:0;
+    
+}
+.philosophy .mission-ach{
+    padding: 100px;
+}
+.philosophy .mission-ach ul{
+    width:1000px;
+}
+.philosophy .mission-ach ul h1{
+    width:1000px;
+}
+.values{
+
+    background-image: url("./images/1606970729_our_value_bg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height:800px;
+    /* background-position: 100%; */
+}
+.values h1,.philosophy ul{
+    margin:0;
+}
+
+
+.naveen{
+
+    background-image: url("./images/1607077656_leader-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height:800px;
+    /* background-position: 100%; */
+    
+}
+
+.naveen .photo{
+    float:left;
+    width:700px;
+    padding: 100px 180px;
+
+}
+/*  */
+.naveen .naveen-ach{
+    /* margin:0; */
+    border-top:1px solid #fff;
+}
+.naveen .naveen-ach{
+    padding: 100px;
+}
+
+.portrait{
+    border-top:1px solid #fff;
+background-image: url("./images/1606975385_bauji_bg.jpg") ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+height:800px;
+/* background-position: 100%; */
+
+}
+
+.portrait .pphoto{
+    display:inline-block;
+    padding-top: 100px;
+}
+.portrait .portrait-ach{
+    padding:100px 200px;
+    width:70%;
+
+}
+.portrait{
+    display:flex;
+}
+
+.savitri{
+
+    background-image: url("./images/1608725249_new-bg-img.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height:800px;
+    /* background-position: 100%; */
+    
+}
+
+.savitri .sphoto{
+    float:left;
+    width:700px;
+    padding: 100px 180px;
+
+}
+/*  */
+.savitri .savitri-ach{
+    margin:0;
+    border-top:1px solid #fff;
+}
+.savitri .savitri-ach{
+    padding: 100px;
+}
+
+.naveen .photo h1, .portrait .pphoto h1, .savitri .sphoto h1{
+    color:#fff;
+    font-family: "GothamBlack";
+    font-size: 36px;
+}
+.naveen .photo p, .portrait .pphoto p , .savitri .sphoto p{
+    font-family: "GothamMedium";
+    color:#fff;
+    font-size:24px;
+}
+.naveen .naveen-ach h1, .portrait .portrait-ach h1 , .savitri .savitri-ach h1{
+    font-family: "GothamBold";
+    color:#fff;
+    font-size: 36px;
+}
+.naveen .naveen-ach p, .portrait .portrait-ach p, .savitri .savitri-ach p{
+    font-family: "Gotham-Light";
+    line-height: 3rem;
+    font-size:24px;
+    color:#fff;
+}
+
+.values{
+    box-sizing: border-box;
+    padding:200px 100px;
+    /* display:flex; */
+}
+.values ol li{
+    font-size: 30px;
+    font-family: "GothamMedium";
+}
+.values ol li{
+    width:250px;
+    /* padding: */
+    margin:0px 0px 58px 64px;
+    float:left;
+    list-style:decimal;
+    font-size: 30px;
+    padding: 0px;
+}
+.values h1{
+    font-size: 36px;
+    font-family: "GothamBold";
+    padding-left:70px;
+    padding-bottom: 70px;
+}
+footer{
+    border-top:1px solid #fff;
+    padding-top: 100px;
+    background-color: #1A1A1A;
+    
+}
+footer .foot a{
+    padding-top:20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left:50%;
+    height:60px;
+    font-size: 24px;
+    
+    
+}
+
+footer .foot img{
+    width:190px;
+    height:86px;
+    
+
+}
+footer .foot{
+    padding-left:200px;
+}
+footer .final .col ul li a{
+    line-height: 2.2rem;
+    font-size: 14px;
+    text-decoration: none;
+    color:#000;
+    font-family: "GothamBook";
+    margin: 0px 0px 16px;
+}
+footer .final{
+    display:flex;
+    padding-left:150px;
+    /* float:right; */
+}
+footer .final .col{
+    float:left;
+    padding-right:150px;
+}
+footer .soc-media ul li a img{
+    width:40px;
+    height:40px;
+}
+footer .soc-media {
+    padding-left:155px;
+}
+footer .copy-r, footer .copy-r ul{         
+    display:flex;
+    padding-left:180px;
+}
+footer .copy-r ul{
+    padding-left:500px;
+}
+footer .copy-r ul li{
+    border-left:1px solid #fff; 
+padding:0px 40px;
+}
+.copy-r ul li,.copy-r p
+{
+    font-size:14px;
+    font-family:"Gotham-Light";
+}
+footer .final .col ul li a, footer .soc-media ul li a, footer .copy-r p,footer .copy-r ul li {
+    color:#fff
+
+}
+.hero .navbar ul li a
+{
+    font-size:14px;
+    font-family:"GothamBook";
+}
